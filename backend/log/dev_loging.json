@@ -1,0 +1,831 @@
+{
+  "errors": [
+    {
+      "date": "24.09.2019 12:32:39",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 12:28:13",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 11:38:48",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 11:36:32",
+      "message": "Page /robots.txt not found...",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:36:32",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 11:24:05",
+      "message": "There was an error on sending the email. Try again letter",
+      "status": 500
+    },
+    {
+      "date": "24.09.2019 11:23:51",
+      "message": "There is no user with with email address << undefined >>",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:22:04",
+      "message": "Validation failed: passwordConfirm: PasswordConfirm doesn't equal password"
+    },
+    {
+      "date": "24.09.2019 11:19:56",
+      "message": "Validation failed: passwordConfirm: PasswordConfirm doesn't equal password"
+    },
+    {
+      "date": "24.09.2019 11:19:44",
+      "message": "Page /api/v1/me not found...",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:19:31",
+      "message": "Validation failed: passwordConfirm: PasswordConfirm doesn't equal password"
+    },
+    {
+      "date": "24.09.2019 11:18:27",
+      "message": "There was an error on sending the email. Try again letter",
+      "status": 500
+    },
+    {
+      "date": "24.09.2019 11:18:15",
+      "message": "There was an error on sending the email. Try again letter",
+      "status": 500
+    },
+    {
+      "date": "24.09.2019 11:17:58",
+      "message": "There was an error on sending the email. Try again letter",
+      "status": 500
+    },
+    {
+      "date": "24.09.2019 11:16:48",
+      "message": "There was an error on sending the email. Try again letter",
+      "status": 500
+    },
+    {
+      "date": "24.09.2019 11:07:36",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 11:07:24",
+      "message": "User validation failed: password: Password must have more ore equal then 8 characters"
+    },
+    {
+      "date": "24.09.2019 11:07:14",
+      "message": "User validation failed: name: Please tell us your name, password: Password must have more ore equal then 8 characters"
+    },
+    {
+      "date": "24.09.2019 11:07:04",
+      "message": "User validation failed: passwordConfirm: Please confirm your password, name: Please tell us your name, password: Password must have more ore equal then 8 characters"
+    },
+    {
+      "date": "24.09.2019 11:06:51",
+      "message": "Password doesn't correct",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 11:06:44",
+      "message": "Password doesn't correct",
+      "status": 401
+    },
+    {
+      "date": "24.09.2019 11:06:37",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:06:15",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:06:12",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:06:08",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:05:43",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 11:00:54",
+      "message": "User doesn't exist",
+      "status": 404
+    },
+    {
+      "date": "24.09.2019 10:59:57",
+      "message": "jwt expired"
+    },
+    {
+      "date": "24.09.2019 10:22:53",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t124@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 10:22:44",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t124@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 10:18:40",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t123@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 10:18:37",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t123@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 10:14:41",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t123@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 10:02:08",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 10:01:53",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 10:01:10",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 10:00:18",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 09:58:54",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 09:58:47",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t117@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 09:58:10",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 09:58:04",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t116@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 09:57:31",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 09:55:55",
+      "message": "No recipients defined"
+    },
+    {
+      "date": "24.09.2019 09:55:46",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t114@gmail.com\" }"
+    },
+    {
+      "date": "24.09.2019 09:54:45",
+      "message": "Callback must be a function"
+    },
+    {
+      "date": "24.09.2019 09:52:43",
+      "message": "Callback must be a function"
+    },
+    {
+      "date": "24.09.2019 09:51:34",
+      "message": "Callback must be a function"
+    },
+    {
+      "date": "24.09.2019 09:50:58",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t10@gmail.com\" }"
+    },
+    {
+      "date": "16.09.2019 14:16:32",
+      "message": "Tour validation failed: summary: A tour must have a description, price: A tour must have a price, difficulty: A difficulty must have a name, duration: A tour must have a duration, name: A tour must have a name"
+    },
+    {
+      "date": "16.09.2019 14:16:12",
+      "message": "jwt expired"
+    },
+    {
+      "date": "16.09.2019 14:09:38",
+      "message": "sharp(...).resize(...).noEnlarge is not a function"
+    },
+    {
+      "date": "16.09.2019 14:09:37",
+      "message": "sharp(...).resize(...).noEnlarge is not a function"
+    },
+    {
+      "date": "16.09.2019 14:07:05",
+      "message": "sharp(...).withoutEnlargement is not a function"
+    },
+    {
+      "date": "16.09.2019 12:46:10",
+      "message": "req.body.images.push is not a function"
+    },
+    {
+      "date": "16.09.2019 12:44:21",
+      "message": "Cannot read property 'push' of undefined"
+    },
+    {
+      "date": "16.09.2019 12:43:30",
+      "message": "Cannot read property 'push' of undefined"
+    },
+    {
+      "date": "16.09.2019 12:42:39",
+      "message": "imageCoverInfo is not defined"
+    },
+    {
+      "date": "16.09.2019 12:42:23",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 12:32:10",
+      "message": "Input file is missing"
+    },
+    {
+      "date": "16.09.2019 12:31:55",
+      "message": "Input file is missing"
+    },
+    {
+      "date": "16.09.2019 12:31:51",
+      "message": "Input file is missing"
+    },
+    {
+      "date": "16.09.2019 12:31:17",
+      "message": "Input file is missing"
+    },
+    {
+      "date": "16.09.2019 12:30:44",
+      "message": "Input file is missing"
+    },
+    {
+      "date": "16.09.2019 12:04:08",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 12:03:57",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 11:55:07",
+      "message": "Tour validation failed: summary: A tour must have a description, price: A tour must have a price, difficulty: A difficulty must have a name, duration: A tour must have a duration, name: A tour must have a name"
+    },
+    {
+      "date": "16.09.2019 11:55:02",
+      "message": "Tour validation failed: summary: A tour must have a description, price: A tour must have a price, difficulty: A difficulty must have a name, duration: A tour must have a duration, name: A tour must have a name"
+    },
+    {
+      "date": "16.09.2019 11:54:58",
+      "message": "Tour validation failed: summary: A tour must have a description, price: A tour must have a price, difficulty: A difficulty must have a name, duration: A tour must have a duration, name: A tour must have a name"
+    },
+    {
+      "date": "16.09.2019 11:49:59",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:49:58",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:49:55",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:49:30",
+      "message": "Page /api/v1/tours/sdasdsa not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:49:29",
+      "message": "Page /api/v1/tours/sdasdsa not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:45:28",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:45:10",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:45:04",
+      "message": "Page /api/v1/tours/file not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 11:44:33",
+      "message": "No doc found with ID undefined"
+    },
+    {
+      "date": "16.09.2019 11:44:15",
+      "message": "No doc found with ID undefined"
+    },
+    {
+      "date": "16.09.2019 11:43:52",
+      "message": "next is not defined"
+    },
+    {
+      "date": "16.09.2019 11:43:48",
+      "message": "next is not defined"
+    },
+    {
+      "date": "16.09.2019 11:40:47",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 11:39:21",
+      "message": "Tour validation failed: summary: A tour must have a description, price: A tour must have a price, difficulty: A difficulty must have a name, duration: A tour must have a duration, name: A tour must have a name"
+    },
+    {
+      "date": "16.09.2019 11:38:37",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:38:35",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:38:27",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:38:26",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:38:14",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:38:11",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:37:39",
+      "message": "Cast to ObjectId failed for value \"file\" at path \"_id\" for model \"Tour\""
+    },
+    {
+      "date": "16.09.2019 11:36:45",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 11:34:15",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "16.09.2019 11:32:17",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 11:31:56",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "16.09.2019 11:27:44",
+      "message": "jwt expired"
+    },
+    {
+      "date": "16.09.2019 11:06:44",
+      "message": "Page /api/v1/tours/5d5e4121f9fcd404d40effcd not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 10:33:47",
+      "message": "addWoterMark is not a function"
+    },
+    {
+      "date": "16.09.2019 10:23:12",
+      "message": "sharp is not defined"
+    },
+    {
+      "date": "16.09.2019 10:19:38",
+      "message": "jwt expired"
+    },
+    {
+      "date": "16.09.2019 09:48:03",
+      "message": "sharp(...).metadata(...).then(...).resize is not a function"
+    },
+    {
+      "date": "16.09.2019 09:41:04",
+      "message": "sharp(...).metadata(...).then(...).resize is not a function"
+    },
+    {
+      "date": "16.09.2019 09:35:39",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "16.09.2019 09:35:35",
+      "message": "Page /image/users/avatar-5d5fce929aff2308471f039c.jpeg not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 16:11:46",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 16:10:20",
+      "message": "Expected both left and top to be set"
+    },
+    {
+      "date": "13.09.2019 16:09:59",
+      "message": "Expected both left and top to be set"
+    },
+    {
+      "date": "13.09.2019 16:02:22",
+      "message": "Expected both left and top to be set"
+    },
+    {
+      "date": "13.09.2019 15:56:50",
+      "message": "Expected valid gravity for gravity but received top of type string"
+    },
+    {
+      "date": "13.09.2019 15:47:11",
+      "message": "Expected both left and top to be set"
+    },
+    {
+      "date": "13.09.2019 15:46:58",
+      "message": "Expected positive integer for top but received 20 of type string"
+    },
+    {
+      "date": "13.09.2019 15:28:48",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:28:46",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:25:28",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:25:25",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:25:23",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:24:43",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:24:37",
+      "message": "Page /image/users/userID-5d5fce929aff2308471f039c.jpeg not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:24:35",
+      "message": "Page /image/users/userID-5d5fce929aff2308471f039c.jpeg not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 15:16:30",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 14:59:22",
+      "message": "Page /img/decision.jpg not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 14:45:43",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 14:45:40",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 14:42:52",
+      "message": "Page /favicon.ico not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 14:42:51",
+      "message": "Page /robots.txt not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 14:33:03",
+      "message": "ENOENT: no such file or directory, open '/static/image/users/user-5d5fce929aff2308471f039c-1568374383964.jpeg'"
+    },
+    {
+      "date": "13.09.2019 14:32:58",
+      "message": "ENOENT: no such file or directory, open '/static/image/users/user-5d5fce929aff2308471f039c-1568374378841.jpeg'"
+    },
+    {
+      "date": "13.09.2019 14:32:55",
+      "message": "ENOENT: no such file or directory, open '/static/image/users/user-5d5fce929aff2308471f039c-1568374375158.jpeg'"
+    },
+    {
+      "date": "13.09.2019 14:32:22",
+      "message": "ENOENT: no such file or directory, open 'static/images/users/user-5d5fce929aff2308471f039c-1568374342082.jpeg'"
+    },
+    {
+      "date": "13.09.2019 14:31:55",
+      "message": "ENOENT: no such file or directory, open '/static/images/users/user-5d5fce929aff2308471f039c-1568374315853.jpeg'"
+    },
+    {
+      "date": "13.09.2019 14:28:49",
+      "message": "ENOENT: no such file or directory, open '/static/images/users/photo-1568374129144'"
+    },
+    {
+      "date": "13.09.2019 14:28:05",
+      "message": "ENOENT: no such file or directory, open '/static/images/users/photo-1568374085596'"
+    },
+    {
+      "date": "13.09.2019 14:27:31",
+      "message": "image file dont corrects",
+      "status": 400
+    },
+    {
+      "date": "13.09.2019 14:27:18",
+      "message": "image file dont corrects",
+      "status": 400
+    },
+    {
+      "date": "13.09.2019 14:15:04",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 12:19:03",
+      "message": "Unexpected field"
+    },
+    {
+      "date": "13.09.2019 12:17:44",
+      "message": "No doc found with ID undefined"
+    },
+    {
+      "date": "13.09.2019 12:17:16",
+      "message": "Model is not defined"
+    },
+    {
+      "date": "13.09.2019 12:16:43",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 12:16:19",
+      "message": "Page /api/v1/me not found...",
+      "status": 404
+    },
+    {
+      "date": "13.09.2019 11:00:15",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 11:00:13",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 11:00:05",
+      "message": "jwt expired"
+    },
+    {
+      "date": "13.09.2019 10:19:15",
+      "message": "next is not a function"
+    },
+    {
+      "date": "13.09.2019 10:00:02",
+      "message": "jwt expired"
+    },
+    {
+      "date": "12.09.2019 14:12:58",
+      "message": "Review validation failed: review: Review can not be empty, tour: Review must belong to a tour."
+    },
+    {
+      "date": "12.09.2019 14:12:38",
+      "message": "jwt expired"
+    },
+    {
+      "date": "12.09.2019 12:59:17",
+      "message": "Review validation failed: rating: Path `rating` (8) is more than maximum allowed value (5)."
+    },
+    {
+      "date": "12.09.2019 12:56:17",
+      "message": "Review validation failed: rating: Path `rating` (0) is less than minimum allowed value (1)."
+    },
+    {
+      "date": "12.09.2019 12:53:19",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "12.09.2019 12:53:03",
+      "message": "Review validation failed: review: Review can not be empty, tour: Review must belong to a tour."
+    },
+    {
+      "date": "12.09.2019 12:52:43",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:33:02",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:26:08",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:26:04",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:12:33",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:12:30",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "11.09.2019 17:12:09",
+      "message": "Cannot destructure property `status` of 'undefined' or 'null'."
+    },
+    {
+      "date": "11.09.2019 17:12:08",
+      "message": "Cannot destructure property `status` of 'undefined' or 'null'."
+    },
+    {
+      "date": "11.09.2019 17:11:53",
+      "message": "Cannot destructure property `status` of 'undefined' or 'null'."
+    },
+    {
+      "date": "11.09.2019 16:45:58",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 15:47:41",
+      "message": "Page /api/v1/review not found...",
+      "status": 404
+    },
+    {
+      "date": "09.09.2019 15:34:55",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 15:22:28",
+      "message": "Schema hasn't been registered for model \"Review\".\nUse mongoose.model(name, schema)"
+    },
+    {
+      "date": "09.09.2019 15:20:47",
+      "message": "review validation failed: tour: Cast to ObjectID failed for value \"5d6676672565esa0841318cc0\" at path \"tour\""
+    },
+    {
+      "date": "09.09.2019 14:51:59",
+      "message": "Projection cannot have a mix of inclusion and exclusion."
+    },
+    {
+      "date": "09.09.2019 14:44:40",
+      "message": "Schema hasn't been registered for model \"Tours\".\nUse mongoose.model(name, schema)"
+    },
+    {
+      "date": "09.09.2019 14:43:13",
+      "message": "review validation failed: tour: Cast to ObjectID failed for value \"5d6676672565esa0841318cc0\" at path \"tour\""
+    },
+    {
+      "date": "09.09.2019 14:42:02",
+      "message": "review validation failed: tour: Review must belong to a tour., review: Review can not be empty"
+    },
+    {
+      "date": "09.09.2019 14:41:33",
+      "message": "review validation failed: user: Review must belong to a user., tour: Review must belong to a tour., review: Review can not be empty"
+    },
+    {
+      "date": "09.09.2019 14:40:53",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:40:38",
+      "message": "review validation failed: user: Review must belong to a user., tour: Review must belong to a tour., review: Review can not be empty"
+    },
+    {
+      "date": "09.09.2019 14:39:54",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:39:35",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:39:34",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:39:32",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:39:30",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:39:27",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "09.09.2019 14:38:49",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:38:47",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:34:14",
+      "message": "Page /api/v1/review not found...",
+      "status": 404
+    },
+    {
+      "date": "09.09.2019 14:33:35",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:33:23",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:33:22",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:33:10",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:33:02",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:32:59",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:32:56",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:32:23",
+      "message": "jwt expired"
+    },
+    {
+      "date": "09.09.2019 14:32:08",
+      "message": "E11000 duplicate key error collection: test.users index: email_1 dup key: { : \"t10@gmail.com\" }"
+    },
+    {
+      "date": "30.08.2019 09:59:51",
+      "message": "Auth failed",
+      "status": 401
+    },
+    {
+      "date": "30.08.2019 09:59:49",
+      "message": "Auth failed",
+      "status": 401
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+.login {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+
+  @media(min-width: $screen-sm-min) {
+    background-color: $mae-dark;
+
+    &:before {
+      content: '';
+      height: 30%;
+      min-height: 103px;
+      width: 100%;
+      background-color: $mae-darker;
+      display: inline-block;
+    }
+  }
+
+  @media(max-width: $screen-xs-max) {
+    background-color: $mae-darker;
+    padding: 20px;
+  }
+}
+
+.login__block {
+  max-width: 320px;
+  width: 100%;
+  display: none;
+  border-radius: 2px;
+  background-color: $card-bg;
+
+  @media(min-width: $screen-sm-min) {
+    margin-top: -107px;
+  }
+
+  &.toggled {
+    @include animated(fadeInUp, 300ms);
+    z-index: 10;
+    display: inline-block;
+  }
+
+  @media(min-width: $screen-sm-min) {
+    &:hover {
+      .login__block__actions .dropdown {
+        @include opacity(1);
+      }
+    }
+  }
+}
+
+.login__block__header {
+  padding: 20px;
+  border-radius: 2px 2px 0 0;
+  background-color: $mae-dark;
+  position: relative;
+
+  i, img {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  i {
+    font-size: 40px;
+    color: $mae-light;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.login__block__actions {
+  position: absolute;
+  bottom: 14px;
+  right: 10px;
+
+  @media(min-width: $screen-sm-min) {
+    .dropdown {
+      @include transition(opacity);
+      @include transition-duration(300ms);
+
+      &:not(.open) {
+        @include opacity(0);
+      }
+    }
+  }
+}
+
+.login__block__body {
+  padding: 10px 30px 35px;
+}
+
+
+.form-control {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #31424b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  resize: none;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.form-group {
+  position: relative;
+}
+
+
+.form-group--float>label {
+  color: rgba(177,188,192,.47);
+  bottom: 9px;
+  left: 0;
+  position: absolute;
+  font-size: 13px;
+  margin: 0;
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.form-control, .form-control:active, .form-control:focus {
+  box-shadow: none!important;
+}
+
+.form-group--float>label {
+  color: rgba(177,188,192,.47);
+  bottom: 9px;
+  left: 0;
+  position: absolute;
+  font-size: 13px;
+  margin: 0;
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.form-group--active>label, .form-group--float .form-control:focus~label {
+  bottom: 39px;
+  font-size: 11px;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: rgba(255,255,255,.1);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,255,.6);
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+  color: #c35249;
+}
